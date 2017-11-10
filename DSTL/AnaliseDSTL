@@ -1,0 +1,25 @@
+As submissões são avaliadas no índice médio de Jaccard entre os multipolígonos previstos e os multipolígonos reais. Esta é uma métrica baseada em vetor onde usamos geometrias de polígonos para avaliar quão bem suas previsões estão alinhadas com a resposta.
+
+O Índice de Jaccard para duas regiões A e B, também conhecido como "intersecção sobre a união", é definido como:
+
+Jaccard = TPTP + FP + FN = | A∩B || A∪B | = | A∩B || A | + | B | - | A∩B |
+
+Intersecção dos conjuntos A e B.svg
+
+Onde TP é a verdadeira área de positivos, FP é a área de falsos positivos e FN é a área de falsos negativos.
+
+Para cada classe de objeto, de cada imagem, calculamos as áreas TP, FP e FN. Então somamos o TP total, FP total e FN total em todas as imagens, então o Jaccard é calculado para essa classe usando TP total, FP total e FN total. Então, nós classificamos todos os Índices de Jaccard para todas as 10 classes.
+Arquivo de Envio
+
+Para cada linha no conjunto de dados, os arquivos de submissão devem conter o seguinte: ImageId (string), ClassType (int) e MultipolygonWKT (coordenadas multipolígono no formato WKT). Você deve enviar uma linha para cada ImageId e cada ClassType. O formato completo está no arquivo sample_submission.csv. Se você quiser prever um polígono vazio para a classe, coloque MULTIPOLYGON EMPTY. Envie todas as linhas exatamente na mesma ordem que sample_submission.csv, caso contrário, você pode obter uma "chave não encontrada erro".
+
+O arquivo deve conter um cabeçalho e ter o seguinte formato:
+
+ImageId, ClassType, MultipolygonWKT
+6020_0_1, 1, MULTIPOLYGON EMPTY
+6120_2_4,1, "POLYGON ((0 0, 0,009188 0, 0,009188 -0,009039999999999999, 0 -0,009039999999999999, 0 0))"
+Etc
+
+Tempo de Envio
+
+Se você tem polígonos complexos, pode demorar mais tempo (4+ minutos) para avaliar o seu envio. Por favor, seja paciente quando a submissão está sendo avaliada! Se você encontrar-se ficar tempo limite, por favor considere simplificar (suavização) seus polígonos para reduzir tanto o tamanho do arquivo de submissão eo tempo que leva para avaliar a submissão.

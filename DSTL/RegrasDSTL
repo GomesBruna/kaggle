@@ -1,0 +1,190 @@
+4955/5000
+Uma conta por participante
+
+Você não pode se inscrever para Kaggle de várias contas e, portanto, não é possível enviar de várias contas.
+Nenhuma partilha privada fora das equipas
+
+Não é permitido compartilhar privadamente código ou dados fora das equipes. Não há problema em compartilhar código se disponível para todos os participantes nos fóruns.
+Fusões de equipes
+
+As fusões de equipes são permitidas e podem ser realizadas pelo líder da equipe. Para combinar, a equipe combinada deve ter uma contagem de submissão total menor ou igual ao máximo permitido a partir da data de mesclagem. O máximo permitido é o número de submissões por dia multiplicado pelo número de dias em que a competição tem sido executada.
+Limites de equipe
+
+Não há tamanho máximo de equipe.
+Limites de submissão
+
+Você pode enviar um máximo de 3 entradas por dia.
+
+Você pode selecionar até 2 submissões finais para julgar.
+Cronograma da Competição
+
+Data de Início: 12/15/2016 12:00 AM UTC
+
+Fim Data limite: 2/28/2017 11:59 UTC
+
+Prazo final da inscrição: 2/28/2017 11:59 UTC
+
+Data de término: 3/7/2017 11:59 UTC
+
+    Modelos pré-treinados são permitidos na competição, mas precisam ser postados no fórum primeiro.
+    Os funcionários do Governo do Reino Unido são convidados a participar no desafio, mas não serão elegíveis para ganhar prêmios em dinheiro.
+
+TERMOS ESPECÍFICOS DE COMPETIÇÃO
+
+COMPETITION NAME (a "Competição"): Dstl Detecção de Característica de Imagens de Satélite
+
+COMPETIÇÃO PATROCINADOR: Dstl
+
+WEB SITE DA COMPETIÇÃO: https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection
+
+PRÉMIOS: Prêmio total de $ 100.000
+QUADRO DE COMPETIÇÃO
+
+Estas são as regras oficiais completas para o Concurso (as "Regras de Concorrência") e incorporam por referência os conteúdos do Site da Competição listados acima.
+
+Ao fazer o download de um conjunto de dados vinculado no Website da Competição, submeter uma inscrição a este Concurso ou participar de uma Equipe nesta Competição, você está concordando em ficar vinculado por estas Regras de Concorrência que constituem um acordo vinculativo entre você e o Patrocinador da Competição.
+
+O Concurso é patrocinado pelo Patrocinador da Competição listado acima e hospedado em nome do Patrocinador pela Kaggle Inc ('Kaggle').
+
+O Concurso será executado a partir da Data de Início até a Data de Conclusão conforme listado no Website da Competição. Observe que os prazos de Competição estão sujeitos a alterações e podem ser introduzidos outros prazos de obstáculos durante a Competição. Quaisquer prazos adicionais ou alterados que ainda não tenham sido descritos neste Regulamento da Competição serão divulgados aos Participantes através do Website da Competição. É responsabilidade do Participante nesta Competição verificar regularmente o website em toda a Competição para se manter informado de quaisquer novos prazos ou atualizados. Nem Kaggle nem o Patrocinador da Competição são responsáveis ​​por qualquer falha do Participante em fazê-lo.
+
+Cada indivíduo registado ou Equipa é referido como um Participante. Você só pode participar usando uma única e única conta Kaggle registrada em http://www.kaggle.com. Participar usando mais de uma conta Kaggle por Participante individual é uma violação destas Regras de Competição eo Patrocinador da Competição se reserva o direito de desqualificar qualquer Participante (ou Equipe, incluindo o Participante) que tenha encontrado violar estas Regras de Competição.
+ELEGIBILIDADE
+
+O Concurso está aberto a todos os indivíduos com idade superior a 18 anos no momento da entrada e a todas as entidades legais formalmente constituídas que não tenham declarado ou tenham sido declaradas em falência.
+
+Oficiais, diretores, funcionários e membros do conselho consultivo (e seus familiares imediatos e membros da mesma família) do Patrocinador da Competição, Kaggle e suas respectivas afiliadas, subsidiárias, contratadas (com exceção dos Kaggle Community Kaggle Community Evangelists) Juízes e agências de publicidade e promoção não são elegíveis para participar do Concurso.
+
+Você não é elegível para receber qualquer Prêmio no Concurso se você for residente de um país designado pelo Escritório de Controle de Ativos Estrangeiros do Tesouro dos Estados Unidos (veja <http://www.treasury.gov/resource-center/sanctions/SDN -List / Pages / default.aspx> para obter informações adicionais).
+SUBMISSÕES
+
+"Submissão" significa o material enviado por você da forma e formato especificados no site através do formulário de apresentação no site. Você (ou se você faz parte de uma equipe, sua equipe) pode submeter até o número máximo de submissões por dia, conforme especificado acima. Todas as Submissões devem ser enviadas para o Website da forma e formato especificados no Website. As inscrições devem ser recebidas antes do prazo da Competição e respeitar as diretrizes para Submissões especificadas no site.
+
+As submissões não podem usar ou incorporar informações da rotulagem manual ou da previsão humana do conjunto de dados de validação ou dos registros de dados de teste.
+
+Se a Competição for uma Competição multi-estágio com dados de treinamento temporariamente separados e / ou dados da tabela de classificação, uma ou mais Submissões válidas devem ser feitas e selecionadas durante cada estágio da Competição da maneira descrita no Website da Competição.
+
+PROPRIEDADE INTELECTUAL
+DADOS
+
+'Dados' significa os Dados ou Conjuntos de Dados ligados a partir do Website da Competição para uso dos Participantes no Concurso. Para evitar dúvidas, os Dados são considerados para efeitos destas Regras de Competição para incluir qualquer protótipo ou código executável fornecido aos Participantes pela Kaggle ou Patrocinador da Competição através do Website. Os Participantes devem usar os Dados somente conforme permitido por estas Regras de Competição e quaisquer regras associadas de uso de dados especificadas no Website da Competição.
+
+A menos que seja permitido de outra forma pelos termos do Website da Competição, os Participantes devem usar os Dados unicamente para o propósito e duração da Competição, incluindo mas não limitado a ler e aprender com os Dados, analisando os Dados, modificando os Dados e, E quaisquer modelos subjacentes e participando em discussões de fórum no site. Os Participantes concordam em usar medidas adequadas para impedir que pessoas que não concordaram formalmente com estas Regras de Concorrência tenham acesso aos Dados e concordem em não transmitir, duplicar, publicar, redistribuir ou de qualquer outra forma fornecer ou disponibilizar os Dados a qualquer parte que não participe no Concorrência. Os participantes concordam em notificar Kaggle imediatamente após o conhecimento de qualquer possível transmissão não autorizada ou acesso não autorizado dos Dados e concordam em trabalhar com a Kaggle para corrigir qualquer transmissão não autorizada. Os participantes concordam que a participação no Concurso não deve ser interpretada como tendo ou sendo concedida uma licença (expressamente, por implicação, preclusão, ou de outra forma) sob ou qualquer direito de propriedade em qualquer dos Dados.
+DADOS EXTERNOS
+
+Salvo disposição expressa em contrário no Website da Competição, os Participantes não devem usar dados que não sejam os Dados para desenvolver e testar seus modelos e Submissões. O Patrocinador da Competição reserva-se o direito, a seu exclusivo critério, de desqualificar qualquer Participante que o Patrocinador da Competição descubra tenha empreendido ou tentado realizar o uso de dados que não os Dados ou que use os Dados além dos permitidos de acordo com o Website da Competição e nestes Durante o Concurso.
+COMPARTILHAMENTO DE CÓDIGO
+
+Os participantes são proibidos de compartilhar privadamente o código fonte ou executável desenvolvido em conexão com ou com base nos Dados, e qualquer compartilhamento é uma violação destas Regras de Competição e pode resultar em desqualificação.
+
+Os participantes têm permissão para compartilhar publicamente o código fonte ou executável desenvolvido em conexão com ou com base nos Dados, ou de outra forma relevante para o Concurso, desde que tal compartilhamento não viole os direitos de propriedade intelectual de terceiros. Ao compartilhar, o Participante de compartilhamento é, portanto, considerado ter licenciado o código compartilhado sob a Licença do MIT (uma licença de software de código aberto comumente descrita em <http://opensource.org/licenses/MIT>).
+OPEN-SOURCE CODE
+
+Uma Submissão não será elegível para ganhar um prêmio se tiver sido desenvolvido usando código contendo ou dependendo do software licenciado sob uma licença de código aberto:
+
+* Que não seja uma licença aprovada pela Open Source Initiative (ver <http://opensource.org/>); ou
+* Uma licença de código aberto que proíbe o uso comercial.
+GANHANDO
+DETERMINANDO VENCEDORES
+
+Este Concurso é um desafio de habilidade e os resultados finais são determinados unicamente pelo ranking de leaderboard no leaderboard privado (sujeito ao cumprimento destas Regras de Competição). As pontuações e classificações dos participantes no Website da Competição em qualquer estágio do Concurso serão baseadas na métrica de avaliação descrita no site da Competição, conforme determinado pela aplicação das previsões na Submissão à verdade de um conjunto de dados de validação cujas instâncias foram um Conjunto fixo amostrado a partir dos Dados.
+
+A métrica de avaliação usada para pontuação e classificação As inscrições serão exibidas no site da competição.
+
+Os prêmios estão sujeitos a verificação de elegibilidade e conformidade com estas Regras de Competição. Todas as decisões do Patrocinador da Competição e dos juízes serão definitivas e obrigatórias em todas as matérias relativas a este Concurso. O Patrocinador da Competição se reserva o direito de examinar a Submissão e qualquer código associado ou documentação para o cumprimento dessas Regras de Competição. No caso de a Submissão demonstrar uma violação destas Regras de Competição, o Patrocinador da Competição poderá, a seu critério, tomar uma das seguintes ações:
+
+* Desqualificar sua Submissão (s); ou
+* Exigir que você resolva dentro de uma semana todos os problemas identificados em suas Submissões (incluindo, sem limitação, a resolução de conflitos de licença, o cumprimento de todas as obrigações exigidas por licenças de software ea remoção de qualquer software que viole as restrições de software ).
+RESOLUÇÃO DE LAÇOS
+
+Um empate entre dois ou mais pedidos válidos e classificados de forma idêntica será resolvido em favor da submissão subordinada que foi submetida em primeiro lugar.
+
+PRÉVIOS DECLINADOS
+
+Um participante pode recusar-se a ser nomeado vencedor notificando a Kaggle diretamente dentro de uma semana após o prazo da competição, caso em que o participante em declínio renuncia a qualquer prêmio ou outros recursos associados à conquista da competição. A Kaggle reserva-se o direito de desqualificar um Participante que assim recuse, a critério exclusivo da Kaggle, se Kaggle considerar a desqualificação apropriada.
+OBRIGAÇÕES DOS GANHADORES
+ENTREGA & DOCUMENTAÇÃO
+
+Como condição de recebimento do Prêmio, o vencedor do Prêmio deve entregar o código do software do modelo final usado para gerar a Submissão vencedora e a documentação associada (de acordo com o modelo de documentação do modelo vencedor disponível no wiki do kaggle em https://www.kaggle .com / wiki / WinningModelDocumentationTemplate) para o Patrocinador da Competição. O código de software entregue deve ser capaz de gerar a Submissão vencedora e conter uma descrição dos recursos necessários para criar e / ou executar o código executável com êxito.
+
+Se um potencial Participante vencedor ou membro da Equipa for um cidadão americano, o vencedor em potencial também deve assinar e devolver um formulário IRS W-9 ou, se for um residente estrangeiro, um formulário IRS W-8BEN, dentro do prazo indicado para reclamar o prémio .
+
+Os ganhadores potenciais serão desqualificados eo prêmio poderá ser atribuído a um vencedor alternativo (o próximo participante qualificado no quadro de classificação) se
+
+* A documentação exigida não é devolvida no prazo de 14 dias após a recepção de qualquer pedido de fornecimento de documentação;
+* Carta de notificação de prêmio / e-mail ou prêmio é devolvido como não entregue; ou
+* Vencedor em potencial ou membro da equipe vencedora é desclassificado por qualquer motivo.
+
+Ao aceitar qualquer Prémio, cada Participante que recebe um Prémio concorda em utilizar o seu nome, endereço, imagem e / ou informação do Prémio pela Kaggle e Patrocinador da Competição para fins promocionais em qualquer meio sem compensação adicional.
+LICENCIAMENTO DE PROPRIEDADE INTELECTUAL PARTICIPANTE
+
+Como uma condição adicional para a recepção de um Prémio, cada Participante vencedor licita assim a sua Submissão vencedora e o código fonte utilizado para gerar a Submissão de acordo com o Tipo de Licença do Vencedor especificado acima (nota: se nenhum Tipo de Licença Vencedor for especificado acima, Tipo é considerado como Licença Não-Exclusiva).
+CONCORRÊNCIAS PÚBLICAS: LICENÇA NÃO EXCLUSIVA
+
+Se o Tipo de Licença Vencedora para a Competição (ver Tipo de Licença Vencedor acima) for uma Licença Não Exclusiva, então cada Vencedor, aceitando um Prêmio,
+
+* Concede ao Patrocinador da Competição e seus designados um direito mundial, não exclusivo, sub-licenciável, transferível, totalmente pago, isento de royalties, perpétuo, irrevogável de usar, não usar, reproduzir, distribuir, criar obras derivadas de, publicamente Executar, exibir publicamente, realizar, fazer, ter feito, vender, oferecer para a venda e importar sua Submissão vencedora e o código fonte usado para gerar a Submissão, em qualquer mídia agora conhecida ou desenvolvida para qualquer finalidade, comercial ou de outra forma , Sem mais aprovação ou pagamento ao Participante; e
+* Representa que tem o direito irrestrito de conceder essa licença.
+CONCURSOS DE INVESTIGAÇÃO: LICENÇA DE FONTE ABERTA
+
+Se o Tipo de Licença Vencedora para a Competição (ver Tipo de Licença Vencedor acima) for Licença de Código Aberto, então cada Vencedor, aceitando um Prêmio,
+
+* Licença sua Submissão vencedora eo código-fonte usado para gerar a Submissão sob a Licença MIT (uma licença de software de código aberto comumente descrita em <http://opensource.org/licenses/MIT>), a menos que outra licença de código aberto seja escolhida explicitamente Da lista dos aprovados pela Iniciativa Open Source em <http://opensource.org/licenses/>; e
+* Representa que tem o direito irrestrito de conceder essa licença.
+CONCESSÃO DE CONCESSÃO DE LICENÇA DE SUBMISSÃO
+
+Se a Competição for classificada como Competição de Recrutamento, o Participante concorda em conceder e concede ao Patrocinador da Competição um direito perpétuo, irrevogável, mundial, isento de royalties, transferível e sub-licenciável de usar, revisar, reproduzir e distribuir internamente a Submissão Incluindo qualquer código fonte enviado) em relação à avaliação da aptidão do Participante para o emprego, desde que a Submissão licenciada conforme estabelecido acima não seja usada para fins comerciais da Empresa de Competição, exceto como de outra forma estabelecido neste Contrato.
+TRAINDO
+
+Participar usando mais de uma conta Kaggle é considerado trapacear e, se descoberto, resultará na desqualificação da Competição e de quaisquer outras Competições afetadas e poderá resultar na proibição ou desativação de contas Kaggle afetadas.
+
+PRÊMIOS RECEBIDOS
+
+Após a verificação da elegibilidade, cada vencedor do Prêmio receberá o prêmio na forma de um cheque ou transferência eletrônica feita para o vencedor do Prêmio (se um indivíduo, ou para os membros individuais da equipe se uma equipe). Aguarde 30 dias após a confirmação final da entrega do Prêmio. Todos os ganhadores que forem cidadãos dos EUA receberão um formulário do IRS 1099 no valor de seu prêmio no momento apropriado. Os vencedores do prêmio são responsáveis ​​por quaisquer impostos, taxas ou outra responsabilidade resultante do recebimento de um Prêmio.
+EQUIPES
+FORMANDO UMA EQUIPE
+
+Vários indivíduos ou entidades podem colaborar como uma equipe ("Equipe"). Você não pode participar em mais de uma Equipa. Cada membro da Equipe deve ser um único indivíduo que opera uma conta Kaggle separada. Você deve se registrar individualmente para o Concurso antes de se juntar a uma Equipa. Você deve confirmar sua associação à Equipe para torná-la oficial respondendo à mensagem de notificação da Equipe que será enviada para sua Conta.
+
+A adesão à equipe não pode exceder o tamanho máximo da equipe.
+FUSÕES DE EQUIPE
+
+As equipes podem ser autorizadas a fundir a critério da Kaggle, desde que a Equipe mesclada atenda a todos os requisitos nessas Regras de Competição. A Kaggle analisará qualquer pedido de fusão e aprovará ou rejeitará o pedido dentro de três dias úteis. Os pedidos de fusão poderão ser rejeitados se o número combinado de inscrições feitas pelas equipes em fusão exceder o número de entradas admissíveis na data do pedido de fusão. Os pedidos de fusão da equipe não serão permitidos dentro de sete dias de qualquer prazo listado no site da competição.
+PRÊMIOS DA EQUIPE
+
+Se uma Equipe ganhar um prêmio monetário, o Patrocinador da Competição alocará o Prêmio em ações parciais entre os membros da Equipe, a menos que a Equipe entre em contato com Kaggle por meio do Website da Competição dentro de três dias úteis após o prazo final para solicitar uma distribuição alternativa de prêmios.
+GARANTIAS E OBRIGAÇÕES
+GARANTIAS E OBRIGAÇÕES DO PARTICIPANTE
+
+Ao se registrar, você concorda que (a) sua Conta está completa, correta e precisa e (b) seu registro pode ser rejeitado ou encerrado e todas as Entradas enviadas por você e / ou sua Equipe podem ser desqualificadas se alguma das informações em sua Conta É (ou o Patrocinador da Competição tem motivos razoáveis ​​para acreditar que é) incompleto, incorreto ou impreciso. Você é o único responsável pela sua conta. Todas as informações de registro são consideradas coletadas nos Estados Unidos.
+
+A participação está sujeita a todas as leis e regulamentos federais, estaduais e locais. Nulo quando proibido ou restrito por lei. Você é responsável por verificar as leis e regulamentos aplicáveis ​​em sua jurisdição antes de participar do Concurso para certificar-se de que sua participação é legal. Você é responsável por todos os impostos e relatórios relacionados a qualquer prêmio que você pode receber como parte do Concurso. Você é responsável por cumprir as políticas do seu empregador em relação à participação no Concurso. O Patrocinador da Competição se isenta de toda e qualquer responsabilidade ou responsabilidade por disputas que surjam entre você e seu empregador relacionadas a este Concurso.
+
+Cada Participante é o único responsável por todos os equipamentos, incluindo mas não necessariamente limitado a um computador e conexão à Internet necessários para acessar o Website e para desenvolver e enviar qualquer Envio, e quaisquer taxas de telefone, dados, Bem como todos os custos incorridos por ou em nome do Participante na participação no Concurso.
+
+Ao inscrever uma Submissão, você declara e garante que todas as informações inseridas no Website são verdadeiras e completas, de acordo com seu melhor conhecimento, que você tem o direito e a autoridade para fazer a Submissão (incluindo qualquer código e modelo subjacente) Em nome ou em nome das pessoas e entidades que você especificar dentro da Submissão, e que a sua Submissão:
+
+* É o seu próprio trabalho original, ou é usado com permissão, caso em que o crédito completo e apropriado e identificação é dada e as contribuições de terceiros são claramente identificados dentro de sua submissão;
+* Não contém informações confidenciais ou segredos comerciais e não é objecto de uma patente registada ou de um pedido de patente pendente;
+* Não viola ou infringe os direitos de patente, direitos de design industrial, direitos autorais, marcas registradas, direitos de privacidade, publicidade ou outra propriedade intelectual ou outros direitos de qualquer pessoa ou entidade;
+* Não contém código malicioso, como vírus, timebombs, cancelbots, worms, cavalos de Tróia ou outros programas potencialmente prejudiciais ou outro material ou informação;
+* Não viola nem violará qualquer lei, estatuto, ordenança, regra ou regulamento aplicável;
+* Não aciona qualquer obrigação de relato ou royalties a terceiros; e
+* Não foi publicado anteriormente e não ganhou nenhum outro prêmio / prêmio.
+A violação de qualquer uma dessas garantias resultará na invalidade da Submissão correspondente.
+
+LIMITAÇÃO DE RESPONSABILIDADE
+
+Ao participar do Concurso, cada Participante concorda em liberar, indenizar e isentar o Patrocinador da Competição, Kaggle, suas respectivas afiliadas, subsidiárias, agências de publicidade e promoções, conforme aplicável, e cada um de seus respectivos agentes, representantes, diretores, E funcionários de e contra quaisquer lesões, perdas, danos, reclamações, ações e qualquer responsabilidade de qualquer tipo resultante ou decorrente de sua participação ou associação com a Competição. O Patrocinador da Competição não é responsável por quaisquer falhas de comunicação, tais como falhas técnicas relacionadas ao computador, telefone, cabo e conexões de rede ou servidor indisponíveis, falhas técnicas relacionadas ou outras falhas relacionadas a hardware, software ou vírus ou Submissões incompletas, atrasadas ou mal dirigidas. O Patrocinador da Competição se reserva o direito de cancelar, modificar ou suspender a Competição caso algum vírus de computador, bug ou outra dificuldade técnica ou outras causas além do controle do Patrocinador da Competição corrompam a administração, a segurança ou o jogo apropriado da Competição e determinem vencedores entre Submissão não afetada pela corrupção, se houver, a seu exclusivo critério.
+
+Nem a Kaggle nem o Patrocinador da Competição são responsáveis ​​por (a) inscrições ou outras comunicações, enviadas, perdidas, roubadas, danificadas, ilegíveis, incompletas, incorretas ou mal dirigidas, (b) erros, omissões, interrupções, deleções, defeitos ou atrasos nas operações ou transmissão (C) corrupção de dados, roubo, destruição, acesso não autorizado ou alteração de materiais de Submissão, ou de qualquer outro tipo de falha ou mau funcionamento do hardware, software, dispositivos de comunicação ou linhas de transmissão de dados, Perda ou de outra forma. Nem a Kaggle nem o Patrocinador da Competição são responsáveis ​​por comunicações eletrônicas ou e-mails que não sejam entregues como resultado de qualquer forma de filtragem ativa ou passiva de qualquer tipo, ou espaço insuficiente em qualquer conta de e-mail para receber mensagens de e-mail. O Patrocinador da Competição não assume qualquer responsabilidade por danos a qualquer sistema de computador resultante da participação ou acesso ou download de informações relacionadas com o Concurso.
+RESERVA DE DIREITOS
+
+O Patrocinador da Competição se reserva o direito de modificar a Data de Início, a Data de Término e o direito de modificar, adicionar ou remover prazos adicionais da Competição por qualquer motivo. Quaisquer alterações serão comunicadas através do Website da Competição. O Patrocinador da Competição também se reserva o direito de modificar, remover ou adicionar Dados ao Website mediante notificação através do Website da Competição. NEM A KAGGLE NEM O PATROCINADOR DA CONCORRÊNCIA É RESPONSÁVEL POR QUALQUER FALHA DO PARTICIPANTE PARA RECEBER AS MUDANÇAS DE DADOS.
+DIVERSOS
+SEVERABILIDADE
+
+A nulidade ou inexequibilidade de qualquer disposição destas Regras de Concorrência não afetará a validade ou exeqüibilidade de qualquer outra disposição. No caso de qualquer disposição ser considerada inválida ou de outra forma inaplicável ou ilegal, estas Regras de Concorrência permanecerão em vigor e serão interpretadas de acordo com seus termos como se a disposição inválida ou ilegal não estivesse aqui contida.
+LEI
+
+Você concorda que estes termos ea relação entre você eo Patrocinador da Competição serão regidos pelas leis do Estado da Califórnia e dos Estados Unidos da América.

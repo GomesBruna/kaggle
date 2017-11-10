@@ -1,0 +1,140 @@
+Como ler o formato WKT
+
+Achamos que esses pacotes são úteis:
+
+Python - shapely.loads ()
+
+Rgeos
+Como ler o formato geojson
+
+Achamos que esses pacotes são úteis:
+
+Python - json, geojson, shapely (use json, depois converta em multipolygon de shapely)
+
+R - geojsonio
+Como projetar geometria em coordenadas de pixel
+
+Neste conjunto de dados que fornecemos, criamos um conjunto de geo-coordenadas que estão no intervalo de x = [0,1] e y = [-1,0]. Essas coordenadas são transformadas de modo que obscurecemos a localização de onde as imagens de satélite são tiradas. As imagens são da mesma região da Terra.
+
+Para utilizar essas imagens, fornecemos as coordenadas de grade de cada imagem para que você saiba como dimensioná-las e alinhá-las com as imagens em pixels. Em grid_sizes.csv, você recebe os valores Xmax e Ymin para cada imageId.
+
+Para cada imagem, você deve ser capaz de obter a largura (W) e altura (H) do raster da imagem. Para uma imagem de 3 bandas que é 3391 x 3349 x 3, W é 3349 e H é 3391. Em seguida, pode escalar os dados da seguinte forma:
+
+W '= W⋅WW + 1
+
+X '= xxmax⋅W'
+
+H '= H.HH + 1
+
+Y '= yymin⋅H'
+
+Como converter seus resultados novamente em Multipolygon
+
+É melhor usar cascaded_union () para aplainar uma lista de polígonos em um multipolígono não sobreposto.
+
+Redimensionando seus resultados de volta às coordenadas originais:
+
+X = x'⋅xmaxW '
+
+Y = y'⋅yminH '
+
+Então é fácil usar shapely para output o multipolygon ao formato do wkt: multipoly.wkt
+Como abrir arquivos GeoTiff em Python
+
+GDAL é grande, mas um pouco difícil de instalar. Se você só quer ler os arquivos como rasters, tifffile é um pacote leve para abrir os arquivos GeoTiff.
+
+Por exemplo, o código a seguir lê o tamanho das imagens de 16 bandas:
+
+import gdal
+from gdalconst import * 
+
+img_filename_16bandA = 'data/16band/6100_1_3_A.tif'
+img_filename_16bandM = 'data/16band/6100_1_3_M.tif'
+img_filename_16bandP = 'data/16band/6100_1_3_P.tif' 
+
+datasetA = gdal.Open(img_filename_16bandA, GA_ReadOnly )
+datasetM = gdal.Open(img_filename_16bandM, GA_ReadOnly )
+datasetP = gdal.Open(img_filename_16bandP, GA_ReadOnly ) 
+
+print 'Size is ',datasetA.RasterXSize,'x',datasetA.RasterYSize, \
+ 'x',datasetA.RasterCount
+print 'Size is ',datasetM.RasterXSize,'x',datasetM.RasterYSize, \
+ 'x',datasetM.RasterCount
+print 'Size is ',datasetP.RasterXSize,'x',datasetP.RasterYSize, \
+ 'x',datasetP.RasterCount
+
+Outputs:
+
+Size is 136 x 134 x 8
+Size is 848 x 837 x 8
+Size is 3391 x 3348 x 1
+
+Or you could use tifffile:
+
+import tifffile as tiff
+P = tiff.imread(img_filename_16bandP) 
+tiff.imshow(P)
+
+
+Nesta competição, Dstl fornece imagens de satélite de 1km x 1km em formatos de 3 e 16 bandas. Seu objetivo é detectar e classificar os tipos de objetos encontrados nessas regiões.
+Imagens de 3 e 16 bandas
+
+Existem dois tipos de imagens de conteúdo espectral fornecidas nesta competição. As imagens de 3 bandas são as imagens coloridas RGB tradicionais. As imagens de 16 bandas contêm informação espectral ao capturar canais de comprimento de onda mais largos. Esta imagem multibanda é extraída da gama multiespectral (400 - 1040nm) e infravermelho de onda curta (SWIR) (1195-2365nm). Todas as imagens estão no formato GeoTiff e podem exigir que os visualizadores do GeoTiff (como o QGIS) sejam exibidos. Consulte o nosso tutorial sobre como visualizar as imagens de forma programática.
+Ortho Ready Imagens Padrão © 2016 DigitalGlobe, Inc.
+
+Todos os créditos de imagens para: Imagens de satélite © DigitalGlobe, Inc.
+Detalhes da imagem
+
+    Sensor: WorldView 3
+    Bandas de ondas:
+        Panchromatic: 450-800 nm
+        8 Multiespectral: (vermelho, vermelho, costeiro, azul, verde, amarelo, próximo de IR1 e próximo de IR2) 400 nm - 1040 nm
+        8 SWIR: 1195 nm - 2365 nm
+    Resolução de Sensor (GSD) em Nadir:
+        Panchromatic: 0.31m
+        Multiespectral: 1,24 m
+        SWIR: Entregue a 7,5m
+    Faixa Dinâmica
+        Panchromatic e multiespectral: 11 bits por pixel
+        SWIR: 14 bits por pixel
+
+Tipos de objeto
+
+Em uma imagem de satélite, você encontrará muitos objetos diferentes, como estradas, edifícios, veículos, fazendas, árvores, formas de água, etc. Dstl rotulou 10 classes diferentes:
+
+    Edifícios - grande edifício, residencial, não residencial, depósito de combustível, edifício fortificado
+    Misc. Estruturas artificiais
+    Estrada
+    Trilha - pobre / sujeira / carro trilha, trilha / trilha
+    Árvores - bosques, sebes, grupos de árvores, árvores isoladas
+    Culturas - arborização de contorno / cultivo, culturas de grãos (trigo), fileiras (batatas, nabos)
+    Via navegável
+    Água parada
+    Veículo Veículo grande - grande (por exemplo, caminhão, caminhão, ônibus), veículo de logística
+    Veículo Veículo pequeno - pequeno (carro, van), motocicleta
+
+Cada classe de objeto é descrita na forma de polígonos e multipólios, que são simplesmente uma lista de polígonos. Nós fornecemos dois formatos diferentes para estas formas: GeoJson e WKT. Estes são ambos formatos open source para formas geo-espaciais.
+
+Seu envio será no formato WKT.
+Coordenadas geográficas
+
+Neste conjunto de dados que fornecemos, criamos um conjunto de geo-coordenadas que estão no intervalo de x = [0,1] e y = [-1,0]. Essas coordenadas são transformadas de modo que obscurecemos a localização de onde as imagens de satélite são tiradas. As imagens são da mesma região da Terra.
+
+Para utilizar essas imagens, fornecemos as coordenadas de grade de cada imagem para que você saiba como dimensioná-las e alinhá-las com as imagens em pixels. Você precisa do Xmax e Ymin para cada imagem para fazer o dimensionamento (fornecido em nosso grid_sizes.csv) Por favor, consulte o nosso tutorial sobre como visualizar programaticamente as imagens.
+Descrições dos arquivos
+
+        Train_wkt.csv - o formato WKT de todos os rótulos de treinamento
+            ImageId - ID da imagem
+            ClassType - tipo de objetos (1-10)
+            MultipolygonWKT - a área rotulada, que é a geometria multipolígono representada no formato WKT
+        Three_band.zip - conjunto de dados completo de imagens de satélite de 3 bandas. As três bandas estão nas imagens com nome de arquivo = {ImageId} .tif. MD5 = 7cf7bf17ba3fa3198a401ef67f4ef9b4
+        Sixteen_band.zip - conjunto de dados completo de imagens de satélite de 16 bandas. As 16 bandas são distribuídas nas imagens com o nome do arquivo = {ImageId} _ {A / M / P} .tif. MD5 = e2949f19a0d1102827fce35117c5f08a
+        Grid_sizes.csv - os tamanhos das grades para todas as imagens
+            ImageId - ID da imagem
+            Xmax - coordenada máxima de X para a imagem
+            Ymin - coordenada Y mínima para a imagem
+        Sample_submission.csv - um arquivo de submissão de amostra no formato correto
+            ImageId - ID da imagem
+            ClassType - tipo de objetos (1-10)
+            MultipolygonWKT - a área rotulada, que é a geometria multipolígono representada no formato WKT
+        Train_geojson.zip - o formato geojson de todas as etiquetas de treinamento (basicamente estas são as mesmas informações que train_wkt.csv)
